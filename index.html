@@ -10,9 +10,19 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
    <link rel="stylesheet" href="css/main.css" />
    <title>Welcome To My Portfolio</title>
+
+   <link rel="stylesheet" type="text/css" href="./css/preloader.css" />
+
 </head>
 
-<body id="bg-img">
+<body id=" bg-img" onload="toLoading()">
+
+   <div id="preloader">
+      <div id="status">
+         <img src="https://icon-library.net//images/download-icon-gif/download-icon-gif-28.jpg" width="350" />
+      </div>
+   </div>
+
    <header>
       <div class="menu-btn">
          <div class="btn-line"></div>
@@ -74,6 +84,18 @@
    </main>
 
    <script src="js/main.js"></script>
+
+   <script>
+      var myVar = 1;
+
+      function toLoading() {
+         myVar = setTimeout(showPage, 3000);
+      }
+
+      function showPage() {
+         document.getElementById("preloader").style.display = "none";
+      }
+   </script>
 </body>
 
 </html>
