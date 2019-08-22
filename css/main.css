@@ -95,7 +95,7 @@
   transform: translate3d(0, 0, 0);
 }
 
-.menu .nav-item.current>a {
+.menu .nav-item.current > a {
   color: #eece1a;
 }
 
@@ -156,7 +156,7 @@ body {
   color: white;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -167,7 +167,7 @@ body#bg-img {
 }
 
 body#bg-img:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -236,8 +236,7 @@ main#home {
   overflow: hidden;
   filter: blur(10px);
   -webkit-filter: blur(1.5px);
-  z-index: 2;
-
+  z-index: 0;
 }
 
 main#home h1 {
@@ -253,7 +252,7 @@ main#home:hover {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bio-image bio bio""job1 job2 job3";
+  grid-template-areas: 'bio-image bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -425,7 +424,7 @@ main#home:hover {
   }
 
   .about-info {
-    grid-template-areas: 'bio-image''bio''job1''job2''job3';
+    grid-template-areas: 'bio-image' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr;
   }
 
