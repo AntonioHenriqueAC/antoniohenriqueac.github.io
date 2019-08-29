@@ -50,12 +50,28 @@
 	}
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 768px) {
+	#status {
+		left: 40%;
+		top: 40%;
+
+	}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	#status {
+		left: 21%;
+		top: 40%;
+
+	}
+}
+
+@media (max-width: 320px) {
 
 	#status {
 		position: relative;
-		left: 19%;
-		top: 50%;
+		left: 10%;
+		top: 40%;
 		margin: -35% 0 2% -13%;
 		background-repeat: no-repeat;
 		background-position: center;

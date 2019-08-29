@@ -1,12 +1,25 @@
-.rubiks {
-  padding-left: 46%;
-  margin-top: 15%;
+/* image rubiks animation */
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
 
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}
+
+.rubiks {
+  padding-left: 41%;
+  margin-top: 15%;
 }
 
 .rubiks img {
   width: 30%;
-  height: 30%;
 }
 
 .menu-btn {
@@ -453,6 +466,9 @@ main#home:hover {
     -webkit-filter: blur(0px);
     transition: 1ms;
   }
+
+
+
 }
 
 @media screen and (max-width: 500px) {
@@ -461,8 +477,8 @@ main#home:hover {
   }
 
   main#home h1.lg-heading {
-    padding-top: 70px;
-    font-size: 4.1rem;
+    padding-top: 46px;
+    font-size: 3.1rem;
   }
 
   main#home h2.sm-heading {
@@ -490,5 +506,14 @@ main#home:hover {
     filter: blur(0px);
     -webkit-filter: blur(0px);
     transition: 1ms;
+  }
+
+  .rubiks img {
+    width: 45%;
+  }
+
+  .rubiks {
+    padding-left: 35%;
+    margin-top: 4%;
   }
 }
