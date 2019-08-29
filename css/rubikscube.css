@@ -324,6 +324,12 @@ body {
 	right: 0.8em;
 }
 
+.btn--back2 {
+	bottom: 22.8em;
+	right: 0.8em;
+}
+
+
 .btn--bc {
 	bottom: 0.8em;
 	left: calc(50% - 0.5em);
