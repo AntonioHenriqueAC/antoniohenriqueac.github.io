@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="./css/preloader.css" />
 </head>
 
-<body id="bg-img" onload="toLoading()">
+<body id="bg-img">
 
   <div id="preloader">
     <div id="status">
@@ -89,24 +89,11 @@
   </main>
 
   <script src="js/main.js"></script>
+  <script src="js/preloader.js"></script>
+
 
   <script>
-    var myVar;
-    var cont = 1;
-
-    function toLoading() {
-      if (cont == 1) {
-        myVar = setTimeout(showPage, 3000);
-        cont++;
-      } else {
-        myVar = setTimeout(showPage, 0);
-      }
-    }
-
-    function showPage() {
-      document.getElementById('preloader').style.display = 'none';
-      document.getElementById('home').style.display = 'block';
-    }
+    toLoading();
   </script>
 </body>
 
