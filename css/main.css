@@ -488,7 +488,7 @@ main#home:hover {
 
   main#home h1.lg-heading {
     padding-top: 46px;
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
 
   main#home h2.sm-heading {
@@ -527,5 +527,15 @@ main#home:hover {
   .rubiks {
     padding-left: 35%;
     margin-top: 4%;
+  }
+}
+
+
+
+@media screen and (max-width: 361px) {
+
+  main#home h1.lg-heading {
+    padding-top: 46px;
+    font-size: 3.5rem;
   }
 }
