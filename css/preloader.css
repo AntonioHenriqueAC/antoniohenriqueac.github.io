@@ -50,6 +50,14 @@
 	}
 }
 
+@media screen and (min-width: 1171px) {
+	#status {
+		left: 54%;
+		top: 50%;
+
+	}
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
 	#status {
 		left: 40%;
