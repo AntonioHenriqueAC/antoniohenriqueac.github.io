@@ -16,12 +16,6 @@
 
 <body id="bg-img">
 
-  <div id="preloader">
-    <div id="status">
-      <img src="https://icon-library.net//images/download-icon-gif/download-icon-gif-28.jpg" width="350" />
-    </div>
-  </div>
-
   <header>
     <div class="menu-btn ">
       <div class="btn-line"></div>
@@ -65,9 +59,11 @@
   </header>
 
   <main id="home" class="animate-bottom" style="display:none;">
-    <h1 class="lg-heading">
-      Antônio Henrique <span class="text-secundary">Cardoso</span>
-    </h1>
+
+      <h1 class="lg-heading">
+          Antônio Henrique <span class="text-secundary"><span id="demo"> </span></span>
+      </h1>
+ 
     <h2 class="sm-heading">
       Web Developer, Programmer & Control and Automation Engineer
     </h2>
@@ -90,14 +86,20 @@
         <i class="fab fa-whatsapp fa-2x"></i>
       </a>
     </div>
+    
   </main>
 
-  <script src="js/main.js"></script>
-  <script src="js/preloader.js"></script>
+  <div type="hidden" id="preloader">
+    <div id="status">
+      <img src="https://icon-library.net//images/download-icon-gif/download-icon-gif-28.jpg" width="350" />
+    </div>
+  </div>
 
-  <script>
-    toLoading();
-  </script>
+  
+  <script src="js/main.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script src="js/preloader.js"></script>
 
 </body>
 
