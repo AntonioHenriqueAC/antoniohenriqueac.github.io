@@ -488,11 +488,13 @@ main#home:hover {
 
   main#home h1.lg-heading {
     padding-top: 46px;
-    font-size: 3.1rem;
+    font-size: 3.8rem;
   }
 
   main#home h2.sm-heading {
-    font-size: 1rem;
+    margin: 9% 8% 13% 8%;
+    font-size: 0.8rem;
+    background: #00000014;
   }
 
   h1.lg-heading {
